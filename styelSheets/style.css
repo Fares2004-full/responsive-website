@@ -12,10 +12,6 @@ nav{
 background-color: var(--mainColor);
 
 }
-nav div{
-display: flex;
-justify-content: space-between;
-}
 
 .nav-link {
   color: #FFFFFF8c; 
@@ -24,7 +20,40 @@ justify-content: space-between;
 
 .main-link {
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: bolder;
   letter-spacing: 1px;
 }
+
+main {
+  height: 90vb;
+  background: url("../images/imgi_2_programming.jpg")  center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+main::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(0,0,0,0.6);
+}
+main *{
+  z-index: 99;
+}
+main h1{
+  font-weight: bolder;
+font-size: min(5vw, 3.5rem);
+  color: #fff;
+}
+main p{
+  color: #fff;
+  margin-bottom: 2em;
+  
+}
+
