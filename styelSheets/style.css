@@ -8,7 +8,7 @@
 }
 
 
-nav{ 
+nav , footer{ 
 background-color: var(--mainColor);
 
 }
@@ -53,7 +53,16 @@ font-size: min(5vw, 3.5rem);
 }
 main p{
   color: #fff;
-  margin-bottom: 2em;
+  margin-bottom: 1.7em;
   
+}
+footer{
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+text-align: center;
+  color: #fff;
+  height:  min(20vw, 4.5rem);
+  font-size: 0.97em;
 }
 
