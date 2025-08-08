@@ -1,0 +1,30 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --mainColor: rgb(6, 21, 50);
+}
+
+
+nav{ 
+background-color: var(--mainColor);
+
+}
+nav div{
+display: flex;
+justify-content: space-between;
+}
+
+.nav-link {
+  color: #FFFFFF8c; 
+}
+
+
+.main-link {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
